@@ -1,0 +1,2 @@
+include ':app', ':opencv'
+project(':opencv').projectDir = new File(System.getenv("OPENCV_HOME") + "/sdk")
